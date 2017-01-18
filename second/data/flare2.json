@@ -1,0 +1,49 @@
+{
+    "name": "Smoker status",
+    "question": "Have you used tobacco products in the last 6 months?",
+    "questionID": 1001,
+    "children": [{
+        "name": "Yes",
+        "answer": true,
+        "children": [{
+            "name": "Last doctor's visit",
+            "question": "When was the last time you saw a doctor?",
+            "questionID": 1002,
+            "children": [{
+                "name": "Last 6 months",
+                "answer": "Within the last 6 months",
+                "value": 0
+            }, {
+                "name": "6-12 months",
+                "answer": "Between 6 - 12 months ago",
+                "value": 0
+            }, {
+                "name": "Over a year",
+                "answer": "Over a year ago",
+                "value": 0
+            }]
+        }]
+
+    }, {
+        "name": "No",
+        "answer": false,
+        "children": [{
+            "name": "Last doctor's visit",
+            "question": "When was the last time you saw a doctor?",
+            "questionID": 1002,
+            "children": [{
+                "name": "Last 6 months",
+                "answer": "Within the last 6 months",
+                "value": 0
+            }, {
+                "name": "6-12 months",
+                "answer": "Between 6 - 12 months ago",
+                "value": 0
+            }, {
+                "name": "Over a year",
+                "answer": "Over a year ago",
+                "value": 0
+            }]
+        }]
+    }]
+}
